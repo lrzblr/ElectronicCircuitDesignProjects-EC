@@ -1,0 +1,16 @@
+* deney 1
+
+Vi 1 0 sin(0 7V 1hz)
+
+ R1 1 2 1K
+ 
+ D1  2 0 Dzener
+ 
+ .MODEL  Dzener	D(Is=1.085f Rs=.7945 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=157p M=.2966 Vj=.75 Fc=.5 Isr=2.811n Nr=2 Bv=5.6 Ibv=.37157 Nbv=.64726 Ibvl=1m Nbvl=6.5761 Tbv1=267.86u)
+ 
+ .PROBE   
+ 
+ .TRAN 1ms 1s 1ms
+
+
+.END

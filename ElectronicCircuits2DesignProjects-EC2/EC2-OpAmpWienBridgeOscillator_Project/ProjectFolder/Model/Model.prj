@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2022.4 - Apr 26 2022 - ACIS 31.0.1 - Learning Edition
+[Author]
+lrzbl
+[Mesh Cells]
+1,387,287
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Port Modes
+[Modeler Unique ID]
+5:labproje.cst?01376dc1d643b4ac4c1575c3686c8319?17620:numberofparameters=6:port=1>mode=1>zre=0>zim=0?port=1>mode=2>zre=0>zim=0?port=1>mode=3>zre=0>zim=0?port=1>mode=4>zre=0>zim=0?port=1>mode=5>zre=0>zim=0:::lh?l?w?feed_l?b?a
+[Comment]

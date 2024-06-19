@@ -1,0 +1,27 @@
+*C6
+vcc 1 0 dc 12V
+vi 4 0 sin(0 20mV 1kHz)
+Q1 5 2 10 BC547B
+Q2 7 6 9 BC547B
+Cb1 2 3 22uF
+Cb2 5 6 22uF
+Cbe1 10 0 100uF
+Cb3 7 8 22uF
+*şekil5 için
+*cf 2 11 22uF
+*rf 11 9 47k
+R1 1 2 47k
+rc1 1 5 10k
+r3 1 6 47k
+rc2 1 7 47k
+R12 3 4 180k
+R2 3 0 20k
+R21 2 0 5k
+Re1 10 0 2k
+r4 6 0 5k
+re2 9 0 2k
+Rl 8 0 1k
+.MODEL BC547B NPN BF=500 NE=1.3 ISE=9.72F IKF=80M IS=20F VAF=50 +ikr=12m BR=10 NC=2 VAR=10 RB=280 RE=1 RC=40 VJE=.48 tr=.3u tf=.5n +cje=12p vje=.48 mje=.5 cjc=6p vjc=.7 mjc=.33 isc=47p kf=2f
+.PROBE
+.TRAN 1us 4ms
+.END

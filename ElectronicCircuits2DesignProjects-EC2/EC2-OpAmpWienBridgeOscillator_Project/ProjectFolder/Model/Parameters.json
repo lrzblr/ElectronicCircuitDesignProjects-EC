@@ -1,0 +1,35 @@
+{
+    "parameters": [
+        {
+            "expr": "22.86",
+            "name": "a",
+            "value": "22.86"
+        },
+        {
+            "expr": "10.16",
+            "name": "b",
+            "value": "10.16"
+        },
+        {
+            "expr": "50",
+            "name": "feed_l",
+            "value": "50"
+        },
+        {
+            "expr": "50",
+            "name": "W",
+            "value": "50"
+        },
+        {
+            "expr": "55",
+            "name": "L",
+            "value": "55"
+        },
+        {
+            "expr": "80",
+            "name": "lh",
+            "value": "80"
+        }
+    ],
+    "version": 1
+}

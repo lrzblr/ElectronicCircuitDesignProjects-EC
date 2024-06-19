@@ -1,0 +1,17 @@
+*deney1.2
+
+Vi 1 0 sin(0 3V 1hz)
+
+ R1 1 2 1K
+ 
+ D1  2 0 D1N4001
+ 
+ .MODEL D1N4001	D(Is=14.11n N=1.984 Rs=33.89m Ikf=94.81 Xti=3 Eg=1.11 Cjo=25.89p M=.44 Vj=.3245 Fc=.5 Bv=75 Ibv=10u Tt=5.7u)
+
+ 
+ .PROBE   
+ 
+ .TRAN 1ms 2s 1ms
+
+
+.END

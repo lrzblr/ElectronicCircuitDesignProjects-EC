@@ -1,0 +1,15 @@
+*Alirýza Bilir
+VI 1 0 DC 0	
+VE 4 0 DC 3V
+
+R1 1 2 20k
+R2 2 0 40k	
+R3 3 0 40k
+
+D1 2 3 D1N4001
+D2 2 4 D1N4001
+
+.model D1N4001 D (IS=29.5E-9  RS=73.5E-3 N=1.96 CJO=34.6P VJ=0.627 M=0.461 BV=60 IBV=10U)
+.DC VI -8 8 0.001
+.probe
+.END	
